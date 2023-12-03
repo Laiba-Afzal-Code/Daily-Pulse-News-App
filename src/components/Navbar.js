@@ -1,4 +1,6 @@
 import React, {Component} from "react"
+import logo from './logo_newsr.png'
+import {Link} from "react-router-dom";
 
 export class Navbar extends Component {
   render() {
@@ -6,32 +8,45 @@ export class Navbar extends Component {
       <div>
                 <nav className="navbar navbar-expand-lg bg-warning fw-bold bg-body-warning">
            <div className="container-fluid">
-         <i className="bi bi-paint-bucket"></i> 
-            <a className="navbar-brand" href="/"> Daily-Pulse</a><i className="bi bi-feather"/>
+            <Link className="navbar-brand" to="/"/><img src={logo} alt="newslogo" style={{width:'130px'}} />
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav h5">
                 <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">Home</a>
+
+                <Link className="nav-link active" to="/general">News</Link>
                 </li>
+                   <li className="nav-item">
+                <Link className="nav-link" to="/business">Business</Link></li>
+                   <li className="nav-item">
+                <Link className="nav-link" to="/entertainment">Entertainment </Link></li>
+                   <li className="nav-item">
+                <Link className="nav-link" to="/general">General </Link></li>
+                   <li className="nav-item">
+                <Link className="nav-link" to="/health">Health</Link></li>
+                   <li className="nav-item">
+                <Link className="nav-link" to="/science">Science</Link></li>
+                   <li className="nav-item">
+                <Link className="nav-link" to="/sports">Sports</Link></li>
+                   <li className="nav-item">
+                <Link className="nav-link" to="/technology">Technology</Link></li>
                 <li className="nav-item">
-                <a className="nav-link" href="/">News</a>
+                <Link className="nav-link" to="/about">About</Link>
                 </li>
-                <li className="nav-item">
-                <a className="nav-link" href="/about">About</a>
-                </li>
-                <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i className="bi bi-feather"/>
+
+                {/* <li className="nav-item dropdown">
+                <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     More link
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="/">World news</a></li>
-                    <li><a className="dropdown-item" href="/">Sports</a></li>
-                    <li><a className="dropdown-item" href="/">Something else here</a></li>
+                    <li><Link className="dropdown-item" to="/">World news</Link></li>
+                    <li><Link className="dropdown-item" to="/">Sports</Link></li>
+                    <li><Link className="dropdown-item" to="/">Something else here</Link></li>
                 </ul>
-                </li>
+                </li> */}
             </ul>
             </div>
         </div>
