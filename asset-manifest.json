@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Daily-Pulse-News-App/static/css/main.f391c0f2.css",
+    "main.js": "/Daily-Pulse-News-App/static/js/main.d8588b68.js",
+    "static/js/787.6643f1c0.chunk.js": "/Daily-Pulse-News-App/static/js/787.6643f1c0.chunk.js",
+    "static/media/loading.gif": "/Daily-Pulse-News-App/static/media/loading.e4d2b51b88a43f463d19.gif",
+    "static/media/logo_newsr.png": "/Daily-Pulse-News-App/static/media/logo_newsr.dc0f9ec20036d4cf4df2.png",
+    "index.html": "/Daily-Pulse-News-App/index.html",
+    "main.f391c0f2.css.map": "/Daily-Pulse-News-App/static/css/main.f391c0f2.css.map",
+    "main.d8588b68.js.map": "/Daily-Pulse-News-App/static/js/main.d8588b68.js.map",
+    "787.6643f1c0.chunk.js.map": "/Daily-Pulse-News-App/static/js/787.6643f1c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f391c0f2.css",
+    "static/js/main.d8588b68.js"
+  ]
+}
