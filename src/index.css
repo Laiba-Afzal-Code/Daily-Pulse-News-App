@@ -7,3 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(41, 39, 39);
 }
+.img{
+  background-image: url('/src/components/download.png');
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  width: 100%;
+}
+.container h1::after{
+  content: "";
+  background-color: rgb(141, 141, 3);
+  width: 10px;
+  height: 50px;
+  position: absolute;
+
+}

@@ -8,6 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import Footer from './components/Footer';
+import About from './components/About';
 
 export default class App extends Component {
 
@@ -25,6 +26,10 @@ export default class App extends Component {
           <Route exact path="/science" element={<News key='science' pageSize={12} country={'us'} category={'science'}/>}></Route>
           <Route exact path="/sports" element={<News key='sports' pageSize={12} country={'us'} category={'sports'}/>}></Route>
           <Route exact path="/technology" element={<News key='technology' pageSize={12} country={'us'} category={'technology'}/>}></Route>
+          <Route exact path="/about" element={<About/>}>
+          </Route>
+       
+        
             
           </Routes>
           <Footer/>
