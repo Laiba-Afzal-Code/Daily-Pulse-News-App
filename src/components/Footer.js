@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 import logo from './logo_newsr.png'
 import { Link } from 'react-router-dom'
 
-export class Footer extends Component {
-  render() {
+const Footer = ()=> {
     return (
- 
       <div>
         <div className="container text-warning py-5">
             <blockquote className="blockquote text-right ">
@@ -58,6 +56,4 @@ Explore our Daily Pulse and take the power of information with you wherever you 
       </div>
     )
   }
-}
-
-export default Footer
+export default Footer;

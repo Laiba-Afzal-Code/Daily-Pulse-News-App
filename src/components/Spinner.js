@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
-import loading from './loading.gif'
+import React from 'react';
+import loading from './loading.gif';
 
-export class Spinner extends Component {
-  render() {
+const Spinner = () =>{
     return (
       <div>
         <div className="container my-4 d-flex justify-content-center">
@@ -10,7 +9,5 @@ export class Spinner extends Component {
         </div>
       </div>
     )
-  }
 }
-
-export default Spinner
+export default Spinner;
